@@ -11,5 +11,7 @@ public class Main {
         book2.setYear(1856);
         System.out.println("Книга - " + book2.getBookName() + "." + " Автор - " + author2.getNameAuthor() +
                 " " + author2.getAuthorName() + "." + " Год - " + book2.getYear());
+        System.out.println(book1);
+        System.out.println(book2);
     }
 }
